@@ -8,6 +8,14 @@ Webapp checklist hằng ngày cho trẻ 5–8 tuổi. Con tự tick việc, tự
 
 App này tồn tại vì một lý do cụ thể: bản demo chạy thật mỗi tối cho một cô bé 6 tuổi lớp 1.
 
+## Video giới thiệu
+
+[![Kids Habit — launch video](docs/demo/poster.png)](docs/demo/kids-habit-launch.mp4)
+
+**[▶ Xem video giới thiệu — 1:58](docs/demo/kids-habit-launch.mp4)** — vì sao phần lớn app thói quen làm ngược khoa học, Kids Habit làm thế nào khác, và đoạn [journal thật](#tính-năng) của con sau ngày đầu tiên sử dụng.
+
+Bản dọc cho Reels/Shorts: [kids-habit-reel-9x16.mp4](docs/demo/kids-habit-reel-9x16.mp4).
+
 ## Màn hình chính
 
 | Trang chủ — việc hôm nay | Đọc sách EPUB — chữ to, lưu vị trí |
