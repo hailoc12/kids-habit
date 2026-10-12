@@ -1,0 +1,9 @@
+node_modules/
+.next/
+data/
+books/*
+!books/catalog.json
+tsconfig.tsbuildinfo
+.env
+.env.local
+.DS_Store

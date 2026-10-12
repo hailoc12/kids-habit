@@ -1,0 +1,28 @@
+{
+  "name": "kids-habit",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3210",
+    "build": "next build",
+    "start": "next start -p 3210",
+    "seed": "tsx scripts/seed.ts",
+    "test": "tsx scripts/run-tests.ts"
+  },
+  "dependencies": {
+    "epubjs": "^0.3.93",
+    "fflate": "^0.8.3",
+    "next": "^15.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "@types/react": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

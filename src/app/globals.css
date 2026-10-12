@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-6deg) scale(1); }
+  50% { transform: rotate(8deg) scale(1.06); }
+}
+/* Pet animations — thở nhẹ nhàng */
+@keyframes bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+@keyframes hop {
+  0%, 70%, 100% { transform: translateY(0); }
+  80% { transform: translateY(-16px) rotate(-5deg); }
+  90% { transform: translateY(0); }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0) translateX(0); opacity: 1; }
+  50% { transform: translateY(-14px) translateX(6px); }
+  100% { transform: translateY(-40px); opacity: 0; }
+}
+
+
+.card-task {
+  @apply bg-white rounded-3xl p-4 shadow-sm border-2 border-transparent active:scale-[0.98] transition;
+}
+.card-task.done { @apply border-star bg-amber-50/60; }
+.card-task.late { @apply border-dashed border-star/50; }
+
+.btn-primary {
+  @apply bg-star text-white font-bold rounded-2xl py-4 px-6 text-lg active:scale-95 transition shadow-md;
+}
+.btn-secondary {
+  @apply bg-white border-2 border-star/40 text-star-deep font-bold rounded-2xl py-3 px-5 active:scale-95 transition;
+}
+.input {
+  @apply bg-white border-2 border-gray-200 rounded-2xl p-3 text-lg w-full focus:border-star outline-none;
+}
