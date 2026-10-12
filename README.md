@@ -10,9 +10,13 @@ App này tồn tại vì một lý do cụ thể: bản demo chạy thật mỗi
 
 ## Màn hình chính
 
-| Trang chủ — việc hôm nay | Piano luyện ngón |
+| Trang chủ — việc hôm nay | Thư viện sách |
 |---|---|
-| ![Trang chủ](docs/screenshots/home.png) | ![Piano](docs/screenshots/piano.png) |
+| ![Trang chủ](docs/screenshots/home.png) | ![Đọc sách](docs/screenshots/read.png) |
+
+| Piano luyện ngón | Tủ Tư Duy |
+|---|---|
+| ![Piano](docs/screenshots/piano.png) | ![Tư duy](docs/screenshots/learn.png) |
 
 | Pomodoro có điểm kết thúc | Xưởng vẽ |
 |---|---|
