@@ -10,7 +10,7 @@ App này tồn tại vì một lý do cụ thể: bản demo chạy thật mỗi
 
 ## Màn hình chính
 
-| Trang chủ — việc hôm nay | Thư viện sách |
+| Trang chủ — việc hôm nay | Đọc sách EPUB — chữ to, lưu vị trí |
 |---|---|
 | ![Trang chủ](docs/screenshots/home.png) | ![Đọc sách](docs/screenshots/read.png) |
 
