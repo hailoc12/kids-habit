@@ -2,6 +2,8 @@
 
 > Mỗi ngày một ngôi sao — con tự làm, con tự lớn.
 
+**Một sản phẩm của [Linh An Solutions](https://linhan.solutions)** — open source cho mọi gia đình.
+
 Webapp daily checklist cho trẻ 5–8 tuổi, tự xây cho gia đình mình và mở ra cho mọi người. Gamification **ground bằng khoa học** — không phải điểm thưởng vô tri.
 
 Được xây dựng thật, chạy thật, mỗi ngày — cho một cô con gái 6 tuổi đang học lớp 1.
@@ -21,7 +23,7 @@ Phần lớn app thói quen cho trẻ làm ngược lại với nghiên cứu t�
 ## Tính năng
 
 - ✅ **Checklist hằng ngày** — khung giờ cứng (ăn, học, ngủ), con tự tick, ảnh check-in tùy chọn
-- ⭐ **Sao & Cửa hàng** — tích sao đổi quà thực (đi công viên,thời gian chơi cùng bố mẹ), point ledger append-only
+- ⭐ **Sao & Cửa hàng** — tích sao đổi quà thực (đi công viên, thời gian chơi cùng bố mẹ), point ledger append-only
 - 🐱 **Thú cưng ảo "Sao Nhí"** — lớn lên theo sự chăm chỉ của con, nói lời mô tả (không đánh giá)
 - 📚 **Thư viện EPUB** — chữ to cho tuổi mới biết đọc, thưởng sao có trần
 - 🎹 **Đàn piano Synthesia** — nốt rơi, touch, luyện tập có điểm kết thúc
@@ -73,7 +75,7 @@ KH_DEPLOY_HOST=your-mac-mini.local bash scripts/deploy.sh
 
 - Build Next.js standalone → rsync → restart LaunchAgent (KeepAlive, RunAtLoad)
 - Data production ở `data/` trên máy chủ — script deploy **không ghi đè**
-- Truy cập từ xa:khuyến nghị Cloudflare Tunnel + Access (bảo vệ bằng mật khẩu)
+- Truy cập từ xa: khuyến nghị Cloudflare Tunnel + Access (bảo vệ bằng mật khẩu)
 
 ## Cấu trúc
 
@@ -87,6 +89,8 @@ KH_DEPLOY_HOST=your-mac-mini.local bash scripts/deploy.sh
 Xem [CONTRIBUTING.md](CONTRIBUTING.md). PR vui lòng kèm test. Các thay đổi đụng guardrails giáo dục (danh sách trên) cần dẫn nguồn nghiên cứu.
 
 ## Giấy phép
+
+Kids Habit là một sản phẩm của [Linh An Solutions](https://linhan.solutions).
 
 [MIT](LICENSE) — dùng tự do cho gia đình bạn. Nếu sản phẩm của bạn derive từ Kids Habit, giữ tinh thần "trẻ em trước tiên": không quảng cáo, không data ra cloud công khai, không dark pattern giữ chân trẻ.
 
